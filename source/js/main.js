@@ -55,6 +55,8 @@ $(document).ready(function() {
      * Add a scroll listener to the menu to hide/show the navigation links.
      */
     if (menu.length) {
+      if (menu.offset().top >= 100) { nav.hide(); }
+
       $(window).on("scroll", function() {
         var topDistance = menu.offset().top;
 
