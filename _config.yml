@@ -171,7 +171,7 @@ utterances:
   enabled: true
   repo: aaronsjcho/aaronsjcho.github.io
   issue_term: pathname
-  label: Comment
+  label: comment
   theme: github-dark
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
