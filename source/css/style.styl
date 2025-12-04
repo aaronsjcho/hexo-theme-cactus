@@ -71,12 +71,10 @@ body
 
   a
     color: $color-text
-    text-decoration: none
-
-    underline(5px, $color-text)
+    text-decoration: underline $color-text
 
     &:hover
-      background-image: linear-gradient(transparent, transparent 4px, $color-link 4px, $color-link)
+      text-decoration: underline $color-link
 
   a.icon
     background: none
