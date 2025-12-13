@@ -128,7 +128,8 @@
           script.setAttribute('theme', utterances_theme);
           script.setAttribute('crossorigin', 'anonymous');
           script.async = true;
-          (document.getElementById('utterances_thread')).appendChild(script);
+          var utterances_thread = document.getElementById('utterances_thread');
+          if (utterances_thread) { utterances_thread.appendChild(script); }
       }());
   </script>
 <% } %>
